@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Login from "./pages/Login";
 
-const API = "http://localhost:8080";
+const API = "https://floricola-api-765255018585-us-central1.run.app";
 
 export default function App() {
   const [user, setUser] = useState(null);
