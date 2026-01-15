@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import "./login.css";
 
-const API = "https://floricola-api-765255018585-us-central1.run.app"; // luego cambia a tu backend público
+const API = "https://floricola-api-765255018585.us-central1.run.app"; // luego cambia a tu backend público
 
 export default function Login({ onLogin }) {
   const [email, setEmail] = useState("");
